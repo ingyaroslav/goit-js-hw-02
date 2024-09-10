@@ -5,13 +5,13 @@ function getShippingCost(country) {
   const outputEnd = 'credits';
   switch (country) {
     case 'China':
-      return '${outputStart} ${country} will cost 100 ${outputEnd}';
+      return `${outputStart} ${country} will cost 100 ${outputEnd}`;
     case 'Chile':
-      return '${outputStart} ${country} will cost 250 ${outputEnd}';
+      return `${outputStart} ${country} will cost 250 ${outputEnd}`;
     case 'Australia':
-      return '${outputStart} ${country} will cost 170 ${outputEnd}';
+      return `${outputStart} ${country} will cost 170 ${outputEnd}`;
     case 'Jamaica':
-      return '${outputStart} ${country} will cost 120 ${outputEnd}';
+      return `${outputStart} ${country} will cost 120 ${outputEnd}`;
     default:
       return 'Sorry, there is no delivery to your country';
   }
